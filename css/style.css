@@ -1,0 +1,90 @@
+@import url(reset.css);
+
+#headerMain {
+        width:960px;
+        height: 100px;
+        margin: 0px auto;
+        z-index:0; 
+}
+
+#header {
+        height: 960px;
+        width:100px;
+        position: fixed;
+		        margin:0px auto;
+        z-index: 0;
+		    padding: 0px;
+}
+p{
+    padding: 0px;
+    color: #fff;
+    font:60px 'Colibri',sans-serif;
+	margin: 0 auto;
+}
+.content1{
+
+	    margin: 0 auto;
+   }
+
+p {
+  font-size: 14px;
+}
+
+form {
+  font-family: Bebas Neue Regular;
+  color: white; /* Цвет текста */
+	font-size: 30px;
+  padding: 0 15px;
+  border-radius: 3px;
+  
+}
+
+form img {
+  width: 50x;
+  vertical-align: middle;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  margin: auto;
+  border: none;
+}
+
+label {
+  width: 50px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+form input {
+  padding: 3px 5px;
+  margin: 7px;
+  font-weight: bolder;
+  width: 100px;
+}
+
+form input:valid + span {
+  content: url(http://htmlbook.ru/example/images/ok.png);
+}
+
+.sum {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.sum input {
+  padding: 2px 15px;
+  margin-left: 0px auto;
+  border-radius: 15px;
+  background: linear-gradient(#dc2637, #ba1f2e);
+  color: white;
+}
+.footer {
+	background: url('../images/footer.png') no-repeat;
+background-size: 100% 100%;
+ padding: 0px;
+    color: #fff;
+  font-family: Bebas Neue Regular;
+	margin: 0px auto;
+}
